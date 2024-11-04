@@ -11,8 +11,8 @@ A.	Demographics: description of the bank’s demographics
 B.	KPIs and the descriptive analysis of the campaigns: Analysis on the data obtained from the previous marketing campaigns: number of clients reached, number of calls, conversion rate, subscription ratio, average handle time, average call duration
 C.	Results of the calls to clients with loans: An assessment of the months with best subscription rates for clients with loans (personal or housing loans).
 D.	Results of the calls to clients without loans: An evaluation of subscription rates by occupation each month.
-The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found here.
-A Power Bi dashboard used to report and explore trends can be found here.
+The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found [here](https://github.com/Isildil/term_deposit/blob/main/bank_targeted_business_questions.sql).
+A Power Bi dashboard used to report and explore trends can be found [here](https://github.com/Isildil/term_deposit/blob/main/bank_marketing_raquel.pbix).
  
 # Data Structure & Initial Checks
 The data used was taken from the UC Irvine Machine Learning Repository and it consists of one table with 45,211 rows and 17 columns. Is is real data collected from a Portuguese retail bank, from May 2008 to June 2013, with a total of 52944 phone contacts.
@@ -48,9 +48,6 @@ One of the difficulties in this campaign was that the job most represented in th
 72% of blue-collar clients have a housing loan. This represents 28.5% of the clients with housing loan. Blue-collar clients  with a housing loan could very well not be able to save more money.
 For these reasons, the following analysis will divide the client population into those with housing loan (55.8%) and those without (44.42%). Clients without housing loans have double the conversion rate that those who have a housing loan. Furthermore, the clients with housing loans subscribe to term deposits during a more limited timeframe. 
 
-
-Below is the Dashboard from Tableau and more data visualizations are included throughout the report. The interactive dashboard can be downloaded here.
-Read a digital version of this report here: https://github.com/Isildil/agave/blob/main/README.md
 
  
 # A.	Demographics
