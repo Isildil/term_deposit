@@ -1,9 +1,9 @@
-# term_deposit
+# Term deposit campaign in Portugal
 Analysis of a telemarketing campaign for a Portuguese bank
 Term deposit campaign in Portugal
 A data Analysis on a Bank telemarketing campaign
 By Raquel Flores 
-Project Background
+# Project Background
 A Portuguese bank conducts a telemarketing campaign with the purpose to have clients invest in a bank term deposit. Often, more than one contact to the same client was required.
 This analysis will describe the performance of the campaign and recommend changes that could make the next campaign more successful by focusing the efforts on different sectors of the bank’s population each month of the year.
 Insights and recommendations are provided on the following key areas:
@@ -14,7 +14,7 @@ D.	Results of the calls to clients without loans: An evaluation of subscription 
 The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found here.
 A Power Bi dashboard used to report and explore trends can be found here.
  
-Data Structure & Initial Checks
+# Data Structure & Initial Checks
 The data used was taken from the UC Irvine Machine Learning Repository and it consists of one table with 45,211 rows and 17 columns. Is is real data collected from a Portuguese retail bank, from May 2008 to June 2013, with a total of 52944 phone contacts.
 Variables:
 1. Age (numeric)
@@ -40,7 +40,7 @@ Note: A Term deposit is a deposit that a bank or a financial institurion offers 
 
 
 
-Executive Summary
+#Executive Summary
 Overview of Findings
 The campaigns have been successful overall, with a conversion rate of 4.23, above the average 3.1 conversion rate for telemarketing campaigns in the finance industry. 
 The telemarketing campaign seems to already have gone through some iterations in the number of calls made to each profession each month, since the number of clients reached each month are not random. 
@@ -53,7 +53,7 @@ Below is the Dashboard from Tableau and more data visualizations are included th
 Read a digital version of this report here: https://github.com/Isildil/agave/blob/main/README.md
 
  
-A.	Demographics
+# A.	Demographics
 
 
 •	45,210 clients participated in the Marketing campaigns
@@ -69,7 +69,7 @@ A.	Demographics
 
 
 
-B.	KPIs and descriptive analysis of the marketing campaigns
+# B.	KPIs and descriptive analysis of the marketing campaigns
 
 
 
@@ -92,7 +92,7 @@ B.	KPIs and descriptive analysis of the marketing campaigns
 ![conversion_rate](https://github.com/user-attachments/assets/23d2cec2-58bc-4899-a0bb-5f568602c84a)
 
  
-C.	Results of calls to clients with loans 
+# C.	Results of calls to clients with loans 
 
 
 •	Clients with a housing loan subscribe substantially less than clients without housing loan. The conversion rate for all clients was 4.23, while for the clients with housing loan it was 2.85. Conversion rate for clients without housing loans was 6.45.
@@ -109,7 +109,7 @@ C.	Results of calls to clients with loans
 
 
 
-D.	Results of calls to clients without loans 
+# D.	Results of calls to clients without loans 
 
 •	Clients without loans have an overall conversion rate of 6.45. Of the top 4 occupations, admin positions have the best conversion rate at 7.5. management are in second place with 6, technicians in third with 4.9 and blue-collar in fourth with 3.7
 
@@ -121,7 +121,7 @@ D.	Results of calls to clients without loans
 
 
  
-Recommendations:
+# Recommendations:
 
 Based on the insights and findings above, the following recommendations are provided:
 
@@ -148,7 +148,7 @@ Based on the insights and findings above, the following recommendations are prov
 
 
  
-Assumptions and Caveats:
+# Assumptions and Caveats:
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
 •	Average conversion rate for telemarketing campaigns was taken from the conversion Benchmark report of 2023 by Ruler Analytics (https://www.ruleranalytics.com/blog/insight/conversion-rate-by-industry/)
